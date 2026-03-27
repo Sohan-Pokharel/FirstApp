@@ -50,7 +50,7 @@ fun Counter( modifier: Modifier = Modifier){
         modifier=modifier
         Text("Count:$count", style= MaterialTheme.typography.h6)
         Button(onClick = {count++}){
-            Text("Add")
+            Text("hello this is my first app")
         }
     }
 }
